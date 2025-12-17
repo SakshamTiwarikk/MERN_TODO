@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://mern-todo-29l2.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
